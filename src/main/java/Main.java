@@ -10,7 +10,7 @@ public class Main {
 
     public static String toString(Color o) {
         return switch (o) {
-            case Red r -> "Red";
+            case Red ignored -> "Red";
             case Green g -> "Green";
             case Blue b -> "Blue";
             default -> "";
