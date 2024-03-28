@@ -11,7 +11,7 @@ public class Main {
     public static String toString(Color o) {
         return switch (o) {
             case Red ignored -> "Red";
-            case Green g -> "Green";
+            case Green ignored -> "Green";
             case Blue b -> "Blue";
             default -> "";
         };
